@@ -30,7 +30,7 @@
 
       &.s1 {
         background-color: var(--subBg200);
-        top: 180px;
+        top: 150px;
 
         .box {
           display: flex;
@@ -68,11 +68,11 @@
       }
       &.s3 {
         background-color: var(--subBg400);
-        top: 240px;
+        top: 270px;
       }
       &.s4 {
         background-color: var(--subBg500);
-        top: 270px;
+        top: 340px;
       }
       .num {
         font-size: 3vw; //화면크기 기준

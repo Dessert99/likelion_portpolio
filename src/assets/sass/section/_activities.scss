@@ -39,7 +39,6 @@
 
         img {
           width: 12vw; //화면 크기에 맞춰 변한다.
-          height: auto;
           border-radius: 50%;
           transition: all 0.3s; //모든 스타일 변화를 부드럽게 만듦.
           filter: saturate(0%); //이미지 색상을 무채색(회색)으로 만듦.
