@@ -1,0 +1,87 @@
+.contact__inner {
+  padding: 16px;
+  padding-top: 500px;
+  background-color: var(--black200);
+
+  .contact__title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 50%; //밑줄 길이 조절
+    height: 6vw; //글자-밑줄 간격 조절
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--white);
+    border-bottom: 0.4vw solid var(--white);
+    margin-bottom: 100px;
+  }
+
+  .contact__wrap {
+    display: flex;
+    justify-content: center;
+    gap: 5rem; //박스 간격
+    flex-wrap: wrap; // 나중에 반응형 대응 가능. 공간이 부족하면 다음 줄로 내려간다.
+
+    margin-bottom: 100px;
+
+    .contact__item {
+      display: flex;
+      justify-content: center;
+      text-align: center; //.name, .text 안에 들어있는 텍스트가 중앙 정렬된다.
+      flex-direction: column;
+
+      //텍스트
+      color: var(--white);
+
+      .img {
+        img {
+          width: 13vw; //화면 크기에 맞춰 변한다.
+          transition: all 0.3s; //모든 스타일 변화를 부드럽게 만듦.
+          border-radius: 50%;
+        }
+      }
+      .name {
+        font-size: 1.5vw;
+        margin-bottom: 15px;
+      }
+      .text {
+        font-size: 2vw;
+      }
+    }
+  }
+}
+.contact__lines {
+  width: 100%;
+
+  .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--black200);
+    margin-bottom: 0.5vw;
+    &:nth-child(1) {
+      height: 25px;
+    }
+    &:nth-child(2) {
+      height: 17px;
+    }
+    &:nth-child(3) {
+      height: 13px;
+    }
+    &:nth-child(4) {
+      height: 9px;
+    }
+    &:nth-child(5) {
+      height: 5px;
+    }
+    &:nth-child(6) {
+      height: 2px;
+    }
+    &:nth-child(7) {
+      height: 1px;
+    }
+  }
+}
