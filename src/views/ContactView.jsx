@@ -5,7 +5,7 @@ import insta from '../assets/img/insta.jpg';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contactView">
       <div className="contact__inner">
         <div className="contact__title">contact</div>
 

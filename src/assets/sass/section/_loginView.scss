@@ -1,0 +1,68 @@
+#loginView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--mainBg-color);
+}
+
+.loginView__inner {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginView__inner form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loginView__inner input {
+  padding: 12px 16px;
+  border: 1px solid var(--black400);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.loginView__inner input:focus {
+  border-color: var(--subBg400);
+  outline: none;
+}
+
+.loginView__inner button[type='submit'] {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--subBg400);
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginView__inner button[type='submit']:hover {
+  background-color: var(--subBg500);
+}
+
+.loginView__inner a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--black300);
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.loginView__inner a:hover {
+  background-color: var(--subBg100);
+  color: var(--black100);
+}

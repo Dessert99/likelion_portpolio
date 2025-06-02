@@ -4,7 +4,7 @@ import likelion from '../assets/img/likelion.png';
 
 const Activities = () => {
   return (
-    <section id="activities">
+    <section id="activitiesView">
       <div className="activities__inner">
         <div className="activities__title">activities</div>
 
