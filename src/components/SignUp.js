@@ -16,7 +16,7 @@ export const signUp = async (username, password1, password2, nickname, universit
     return response.data.user;
   } catch (error) {
     console.log('에러', error);
-    console.log('상세:', error.response?.data); // 💥 꼭 확인!
+    console.log('상세:', error.response?.data); //
     alert('오류: ' + JSON.stringify(error.response?.data));
   }
 };

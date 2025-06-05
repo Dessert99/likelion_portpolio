@@ -1,0 +1,80 @@
+.writeMainPage__inner {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+.writeMainPage__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.writeMainPage__buttonBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.writeMainPage__button {
+  padding: 14px 32px;
+  background-color: var(--subBg400);
+  color: var(--white);
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: var(--mainKor-font);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+.writeMainPage__button:hover {
+  background-color: var(--subBg500);
+}
+
+.writeMainPage__guide {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: var(--mainKor-font);
+  color: var(--black100);
+}
+
+.writeMainPage__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.writeMainPage__item {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--black400);
+  background-color: var(--subBg100);
+  transition: background-color 0.2s ease;
+}
+.writeMainPage__item:hover {
+  background-color: var(--subBg200);
+}
+
+.writeMainPage__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--black100);
+  margin-bottom: 8px;
+  font-family: var(--mainKor-font);
+}
+
+.writeMainPage__content {
+  font-size: 0.95rem;
+  color: var(--black300);
+  font-family: var(--mainKor-font);
+}
+
+.writeMainPage__empty {
+  text-align: center;
+  color: var(--black300);
+  font-family: var(--mainKor-font);
+}
